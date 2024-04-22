@@ -1,7 +1,7 @@
 import axios from 'axios'
 const base_url = import.meta.env.VITE_BASE_URL
-const API_BASE_URL = `http://localhost:80/api`
-// const API_BASE_URL = `http://${base_url}/api`
+// const API_BASE_URL = `http://localhost:80/api`
+const API_BASE_URL = `http://${base_url}/api`
 
 export async function Logout(){
     function deleteAllCookies() {

@@ -1,0 +1,10 @@
+.env
+venv
+node_modules
+.DS_STORE
+__pycache__
+frontend/node_modules
+backend/venv
+backend/.env
+backend/__pycache__
+
