@@ -7,7 +7,7 @@ WORKDIR /frontend
 # development, localhost; for production, your EC2's IP address
 
 
-ARG VITE_BASE_URL=localhost
+ARG VITE_BASE_URL=pokemonko.com
 ENV VITE_BASE_URL=$VITE_BASE_URL
 
 COPY ./frontend/package.json .
